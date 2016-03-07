@@ -16,4 +16,12 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+    <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.improvedbyline"
+      directory="profiles/uninstall"
+      description="Un-Installs the collective.improvedbyline package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
 </configure>
